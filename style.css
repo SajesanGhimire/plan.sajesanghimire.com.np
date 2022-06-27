@@ -76,27 +76,6 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
-body {
-  background: #1c455e;
-}
-#loader {
-height: 1500px;
-width: 1500px;
-background-color:#1c455e; position: fixed;
-top:50%;
-left: 50%;
-transform: 
-translate(-50%,-50%);
-z-index: 999;
-}
-
-#loader img{
-position: absolute;
-top:50%;
-left: 50%;
-transform:
-translate(-50%,-50%);
-}
 
 /* navbar styling */
 .navbar{
@@ -182,6 +161,27 @@ translate(-50%,-50%);
     filter: brightness(90%);
 }
 
+body {
+  background: #1c455e;
+}
+#loader {
+height: 1500px;
+width: 1500px;
+background-color:#1c455e; position: fixed;
+top:50%;
+left: 50%;
+transform: 
+translate(-50%,-50%);
+z-index: 999;
+}
+
+#loader img{
+position: absolute;
+top:50%;
+left: 50%;
+transform:
+translate(-50%,-50%);
+}
 
 /* home section styling */
 .home{
