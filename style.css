@@ -76,7 +76,9 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
-
+body {
+  background: #1c455e;
+}
 #loader {
 height: 1500px;
 width: 1500px;
