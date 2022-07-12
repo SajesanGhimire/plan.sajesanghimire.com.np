@@ -14,7 +14,7 @@ html{
 #loader {
 height: 1500px;
 width: 1500px;
-background-color:#1c455e; position: fixed;
+background:transparent; position: fixed;
 top:50%;
 left: 50%;
 transform: 
