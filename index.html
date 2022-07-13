@@ -344,7 +344,7 @@ loader.style.visibility = "hidden";
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Thanks for Contacting..! I Will Contact You Soon..."))
+                .then(response => alert("Thanks for Contacting..! I've received your message..."))
                 .catch(error => console.error('Error!', error.message))
             })
           </script>
